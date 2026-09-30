@@ -1,4 +1,4 @@
-# FitSense AI / FitTrack AI Backend
+# AI FitTrack API Backend
 
 A secure, scalable RESTful backend API for fitness tracking and AI-driven personalized workout recommendations and insights built with **Node.js, Express.js, MongoDB, Mongoose, JWT, bcrypt.js, and Google Gemini AI**.
 
@@ -28,7 +28,7 @@ A secure, scalable RESTful backend API for fitness tracking and AI-driven person
 
 ## Problem Statement
 
-Modern fitness applications require more than static record-keeping. Users need personalized guidance, intelligent feedback, and secure data isolation. **FitSense AI Backend** solves these challenges by combining robust JWT-authenticated workout tracking with Google Gemini AI capabilities to provide actionable exercise plans and progress feedback.
+Modern fitness applications require more than static record-keeping. Users need personalized guidance, intelligent feedback, and secure data isolation. **FitTrack AI Backend** solves these challenges by combining robust JWT-authenticated workout tracking with Google Gemini AI capabilities to provide actionable exercise plans and progress feedback.
 
 ---
 
