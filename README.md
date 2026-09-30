@@ -28,7 +28,7 @@ A secure, scalable RESTful backend API for fitness tracking and AI-driven person
 
 ## Problem Statement
 
-Modern fitness applications require more than static record-keeping. Users need personalized guidance, intelligent feedback, and secure data isolation. **FitTrack AI Backend** solves these challenges by combining robust JWT-authenticated workout tracking with Google Gemini AI capabilities to provide actionable exercise plans and progress feedback.
+Modern fitness applications require more than static record-keeping. Users need personalized guidance, intelligent feedback, and secure data isolation. **AI FitTrack API Backend** solves these challenges by combining robust JWT-authenticated workout tracking with Google Gemini AI capabilities to provide actionable exercise plans and progress feedback.
 
 ---
 
@@ -61,7 +61,7 @@ Modern fitness applications require more than static record-keeping. Users need 
 Follows a strict **Model-View-Controller (MVC)** architecture with separate layers for services, middleware, utilities, and configuration.
 
 ```text
-fitsense/
+AI-FitTrack-API/
 ├── server/
 │   ├── config/
 │   │   └── db.js                 # Database connection logic
@@ -108,7 +108,7 @@ fitsense/
 
 1. **Clone or open the repository**:
    ```bash
-   cd fitsense/server
+   cd AI-FitTrack-API
    ```
 
 2. **Install dependencies**:
@@ -124,7 +124,7 @@ fitsense/
    Edit `.env` and fill in your secrets and API keys:
    ```env
    PORT=5000
-   MONGO_URI=mongodb://localhost:27017/aifittrack
+   MONGO_URI=mongodb://localhost:27017/AI FitTrack API
    JWT_SECRET=your_secure_jwt_secret_key
    GEMINI_API_KEY=your_actual_gemini_api_key
    ```
